@@ -59,9 +59,7 @@ body {
     color: black;
     background-color: lightgray;
     outline: none;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+   
     padding: 3px 3px 3px 10px;
     border: none;
     box-shadow: none;
@@ -151,11 +149,9 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
-.dropdown-icon {
-  vertical-align: middle;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.dropdown-container i {
-    vertical-align: middle;
-}
+
