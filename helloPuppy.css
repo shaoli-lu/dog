@@ -59,7 +59,9 @@ body {
     color: black;
     background-color: lightgray;
     outline: none;
-   
+    appearance: textfield;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
     padding: 3px 3px 3px 10px;
     border: none;
     box-shadow: none;
